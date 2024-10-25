@@ -67,7 +67,7 @@ echo "export TU_DEBUG=noconform" >> $HOME/../usr/var/lib/proot-distro/installed-
 #Set proot aliases
 echo "
 alias virgl='GALLIUM_DRIVER=zink '
-alias ls='exa -lF --icons'
+alias ls='eza -lF --icons'
 alias cat='bat '
 alias apt='sudo nala '
 alias start='echo "please run from termux, not debian proot."'
@@ -98,7 +98,7 @@ source .sound" >> .bashrc
 #Set aliases
 echo "
 alias debian='proot-distro login debian --user $username --shared-tmp'
-alias ls='exa -lF --icons'
+alias ls='eza -lF --icons'
 alias cat='bat '
 alias apt='pkg upgrade -y && nala $@'
 " >> $HOME/.bashrc
